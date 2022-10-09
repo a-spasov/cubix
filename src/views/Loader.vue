@@ -231,7 +231,7 @@
 
 .rubiks-cube {
   animation: 3s linear infinite;
-  transform: scale(0.35) rotateX(270deg);
+  transform: scale(0.6) rotateX(270deg);
 
   .detail .side {
     border-radius: 10px;
