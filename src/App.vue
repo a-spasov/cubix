@@ -1,25 +1,15 @@
 <template>
-  <Loader />
+  <AppLayout />
 </template>
 
 <script>
-import Loader from './views/Loader.vue';
-import { defineScreenSize } from './common/composables/screenSize.js';
+import AppLayout from './layouts/AppLayout.vue'
 
 export default {
-  data() {
-    return {
-      size: defineScreenSize(),
-    }
-  },
   components: {
-    Loader,
+    AppLayout,
   },
-  mounted() {
-    window.onresize = () => {
-      this.size = defineScreenSize();
-    }
-  }
+
 }
 </script>
 
