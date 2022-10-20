@@ -1,4 +1,4 @@
-import { onMounted, onUnmounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 
 export default function layout() {
   const type = ref(null);
@@ -16,10 +16,6 @@ export default function layout() {
   onMounted(() => {
     resize()
     window.addEventListener("resize", resize);
-  });
-
-  onUnmounted(() => {
-    window.removeEventListener("resize", resize);
   });
 
   return { type };
