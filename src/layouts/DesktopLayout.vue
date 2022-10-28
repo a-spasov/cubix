@@ -1,7 +1,14 @@
 <template>
   <div class="tile is-vertical">
     <div class="tile notification is-primary is-12">
-      <p class="title">Header</p>
+      <p class="title">Cubix</p>
+      <nav class="navbar">
+        <li >Home</li>
+        <li>Puzzles</li>
+        <li>Collections</li>
+        <li>Usefull Links</li>
+        <li>Hall of fames</li>
+      </nav>
     </div>
     <div class="tile is-ancestor">
       <div class="tile is-parent">
@@ -16,7 +23,7 @@
         </article>
       </div>
       <div class="tile is-vertical is-9">
-        <div class="tile">
+        <!-- <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
               <p class="title">Vertical...</p>
@@ -42,10 +49,10 @@
             <p class="title">Wide tile</p>
             <p class="subtitle">Aligned with the right tile</p>
             <div class="content">
-              <!-- Content -->
             </div>
           </article>
-        </div>
+        </div> -->
+        <Loader>Cubix</Loader>
       </div>
     </div>
     <div class="tile notification is-primary is-12">
@@ -53,3 +60,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import Loader from '../views/Loader.vue'
+</script>
