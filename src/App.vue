@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import AppLayout from './layouts/AppLayout.vue'
+import AppLayout from './layouts/AppLayout.vue';
 
 export default {
   components: {
@@ -12,8 +12,3 @@ export default {
 
 }
 </script>
-
-
-<style>
-/* TO DO  */
-</style>
