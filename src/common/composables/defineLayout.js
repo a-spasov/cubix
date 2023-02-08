@@ -1,22 +1,22 @@
 import { onMounted, ref } from "vue";
 
-export default function layout() {
-  const type = ref(null);
+export default function lalayoutt() {
+  const layout = ref(null);
 
   function resize() {
     if (window.innerWidth < 601) {
-      type.value = 'Phone';
+      layout.value = 'phone';
     } else if (window.innerWidth > 1023) {
-      type.value = 'Desktop';
+      layout.value = 'desktop';
     } else {
-      type.value = 'Tablet';
+      layout.value = 'tablet';
     }
   }
 
   onMounted(() => {
-    resize()
+    resize();
     window.addEventListener("resize", resize);
   });
 
-  return { type };
+  return { layout };
 }
