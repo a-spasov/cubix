@@ -28,7 +28,6 @@ import Header from '../components/layout/Header.vue';
             <button class="button is-danger">
               Button
             </button>
-            <button class="bulma-delete-mixin is-large"></button>
           </div>
         </article>
       </div>
