@@ -1,10 +1,10 @@
 <script setup>
-import Header from '../components/layout/Header.vue';
+import SiteHeader from '../components/layout/SiteHeader.vue';
 </script>
 
 <template>
   <div class="tile is-vertical">
-    <Header />
+    <SiteHeader />
     <div>MAIN</div>
     <div class="tile pt-4 mt-6">
       <div class="tile is-parent is-outlined">
