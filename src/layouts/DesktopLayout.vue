@@ -12,12 +12,15 @@ import SiteHeader from '../components/layout/SiteHeader.vue';
           <div class="tile is-vertical">
             <button class="button is-primary">
               Button
+              <font-awesome-icon icon="fa-solid fa-user" spin spin-reverse />
             </button>
             <button class="button is-link">
               Button
+              <font-awesome-icon icon="fa-regular fa-user" />
             </button>
             <button class="button is-info">
               Button
+              <font-awesome-icon icon="fa-solid fa-lightbulb" />
             </button>
             <button class="button is-success">
               Button
