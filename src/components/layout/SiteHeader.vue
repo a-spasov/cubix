@@ -10,7 +10,6 @@
         <a class="navbar-item">
           Home
         </a>
-
         <a class="navbar-item">
           Puzzles
         </a>
@@ -18,15 +17,12 @@
         <a class="navbar-item">
           Solutions
         </a>
-
         <a class="navbar-item">
           Collections
         </a>
-
         <a class="navbar-item">
           Marketplace
         </a>
-
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
             Useful links
