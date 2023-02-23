@@ -14,7 +14,13 @@ const components = {
 </script>
 
 <template>
-  <div>
+  <div class="layout">
     <component :is="components[layout]" />
   </div>
 </template>
+
+<style>
+.layout {
+  height: 100vh;
+}
+</style>
