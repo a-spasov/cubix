@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <a href="https://bulma.io">
-        <img src="../../assets/images/logo.png" width="100">
+        <img src="../../assets/images/logo2.png" width="100">
       </a>
     </div>
     <div id="navbarBasicExample" class="navbar-menu">

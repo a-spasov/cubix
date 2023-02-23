@@ -1,11 +1,12 @@
 <script setup>
 import SiteHeader from '../components/layout/SiteHeader.vue';
+import SiteFooter from '../components/layout/SiteFooter.vue';
+
 </script>
 
 <template>
   <div class="tile is-vertical">
     <SiteHeader />
-    <div>MAIN</div>
     <div class="tile pt-4 mt-6">
       <div class="tile is-parent is-outlined">
         <article class="tile is-child notification is-success">
@@ -38,7 +39,7 @@ import SiteHeader from '../components/layout/SiteHeader.vue';
         <div>Cubix</div>
       </div>
     </div>
-    <footer>Some footer text</footer>
+    <SiteFooter />
   </div>
 </template>
 
