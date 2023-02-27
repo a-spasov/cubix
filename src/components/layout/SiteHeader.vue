@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar is-fixed-top">
+    <nav class="level">
       <div class="container is-max-widescreen level">
         <p class="level-item has-text-centered">
           <a class="link is-info">Home</a>
@@ -19,25 +19,28 @@
         </p>
       </div>
     </nav>
-    <nav class="level">
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Puzzles</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Solutions</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Marketplace</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Hall of Fame</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Blog</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Forum</a>
-      </p>
+    <nav class="container is-max-widescreen">
+      <div class="container is-max-widescreen level">
+        <div class="navbar-start">
+          <a class="navbar-item">Puzzles</a>
+          <a class="navbar-item">Solutions</a>
+          <a class="navbar-item">Marketplace</a>
+          <a class="navbar-item">Hall of Fame</a>
+          <a class="navbar-item">Forum</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light">
+                Log in
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 </template>
