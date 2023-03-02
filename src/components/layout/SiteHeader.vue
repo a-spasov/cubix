@@ -1,33 +1,45 @@
 <template>
   <header>
-    <nav class="level">
-      <div class="container is-max-widescreen level">
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Home</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">About</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <img src="../../assets/images/logo2.png" width="200">
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Contact us</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info">More</a>
-        </p>
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="../../assets/images/logo2.png">
+        </a>
       </div>
-    </nav>
-    <nav class="container is-max-widescreen">
-      <div class="container is-max-widescreen level">
+
+      <div class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">Puzzles</a>
-          <a class="navbar-item">Solutions</a>
-          <a class="navbar-item">Marketplace</a>
-          <a class="navbar-item">Hall of Fame</a>
-          <a class="navbar-item">Forum</a>
+          <a class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item">
+            Documentation
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
         </div>
+
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
