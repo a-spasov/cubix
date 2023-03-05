@@ -6,14 +6,16 @@
           <img src="../../assets/images/logo2.png" style="max-height: 100%" width="260">
         </a>
       </div>
-      <div style="width: 100%; padding: 10px 30px;">
+      <div style="width: 100%; padding: 6px 20px;">
         <nav class="level" style="height: 40px;   margin: 0; width: 100%">
           <div class="level-right" style="margin-left: auto">
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px;"><strong>Home</strong></p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px;"><a>About</a></p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px;"><a>Usefull links</a></p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px;"><a>Log in</a></p>
-            <p class="level-item"><a>Register</a></p>
+            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px; margin: 0;"><strong>Home</strong>
+            </p>
+            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px; margin: 0;"><a>About</a></p>
+            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px; margin: 0;"><a>Usefull links</a>
+            </p>
+            <p class="level-item" style="border-right: 1px solid gray; padding: 0 10px; margin: 0;"><a>Log in</a></p>
+            <p class="level-item" style="padding: 0 10px; margin: 0;"><a>Register</a></p>
           </div>
         </nav>
         <div class="navbar-menu" style="height: 40px; align-self: flex-end;">
@@ -163,11 +165,14 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="field has-addons">
-                <p class="control">
-                  <input class="input is-rounded" type="text" placeholder="Find a post">
+                <p class="control has-icons-left">
+                  <input class="input is-rounded " type="text" placeholder="Search...">
+                  <span class="icon is-small is-left">
+                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                  </span>
                 </p>
                 <p class="control">
-                  <button class="button is-rounded">
+                  <button class="button is-rounded is-primary">
                     Search
                   </button>
                 </p>
