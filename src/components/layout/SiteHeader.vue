@@ -19,7 +19,7 @@
           </div>
         </nav>
         <div class="navbar-menu" style="height: 40px; align-self: flex-end;">
-          <div class="navbar-end">
+          <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
                 Puzzles

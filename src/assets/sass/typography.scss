@@ -1,0 +1,13 @@
+:root {
+    --font-primary: "Times New Roman", Times, serif;
+
+    /* base values */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+}
+
+body {
+    font-size: var(--text-base-size);
+    font-family: var(--font-primary);
+    color: var(--color-text);
+}

@@ -3,9 +3,10 @@
 @import "../../../node_modules/bulma/sass/utilities/functions.sass";
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import "./typography.scss";
 
-$family-sans-serif: 'Varela Round', sans-serif;
+// $family-sans-serif: 'Varela Round', sans-serif;
 
-$success: red;
+// $success: red;
 
 @import "../../../node_modules/bulma/bulma.sass";
