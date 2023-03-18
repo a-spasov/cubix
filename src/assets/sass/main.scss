@@ -1,12 +1,16 @@
 @charset "utf-8";
 @import "../../../node_modules/bulma/sass/utilities/initial-variables.sass";
 @import "../../../node_modules/bulma/sass/utilities/functions.sass";
-
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
 @import "./typography.scss";
+@import "./base.scss";
+
 
 // $family-sans-serif: 'Varela Round', sans-serif;
 
-// $success: red;
+$success: red;
 
 @import "../../../node_modules/bulma/bulma.sass";
+

@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 :root {
-    --font-primary: "Times New Roman", Times, serif;
+  --font-primary: 'Varela Round', sans-serif;
 
-    /* base values */
-    --text-base-size: 1em;
-    --text-scale-ratio: 1.2;
-}
-
-body {
-    font-size: var(--text-base-size);
-    font-family: var(--font-primary);
-    color: var(--color-text);
+  /* base values */
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
 }
