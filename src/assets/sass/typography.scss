@@ -7,3 +7,8 @@
   --text-base-size: 1em;
   --text-scale-ratio: 1.2;
 }
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base-size);
+}
