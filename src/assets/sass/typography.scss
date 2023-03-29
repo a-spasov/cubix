@@ -5,10 +5,43 @@
 
   /* base values */
   --text-base-size: 1em;
-  --text-scale-ratio: 1.2;
+  --text-scale-ratio: 1.25;
+
+    /* type scale */
+    --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+    --text-s: calc(1em / var(--text-scale-ratio));
+    --text-m: calc(1em * var(--text-scale-ratio));
+    --text-l: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 }
 
 body {
   font-family: var(--font-primary);
   font-size: var(--text-base-size);
+}
+
+h1 {
+  font-size: var(--text-xxl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+h3 {
+  font-size: var(--text-l);
+}
+
+h4 {
+  font-size: var(--text-m);
+}
+
+h5 {
+  font-size: var(--text-s);
+}
+
+h6 {
+  font-size: var(--text-xs);
 }
