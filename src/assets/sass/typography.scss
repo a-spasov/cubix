@@ -5,11 +5,11 @@
 
   /* base values */
   --text-base-size: 1em;
-  --text-scale-ratio: 1.25;
+  --text-scale-ratio: 1.33;
 
     /* type scale */
-    --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
-    --text-s: calc(1em / var(--text-scale-ratio));
+    --text-xs: calc(1em / (var(--text-scale-ratio)));
+    --text-s: calc(1em);
     --text-m: calc(1em * var(--text-scale-ratio));
     --text-l: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
     --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
@@ -24,24 +24,36 @@ body {
 
 h1 {
   font-size: var(--text-xxl);
+  font-weight: 700;
 }
 
 h2 {
   font-size: var(--text-xl);
+  font-weight: 700;
 }
 
 h3 {
   font-size: var(--text-l);
+  font-weight: 700;
 }
 
 h4 {
   font-size: var(--text-m);
+  font-weight: 700;
 }
 
 h5 {
   font-size: var(--text-s);
+  font-weight: 700;
 }
 
 h6 {
   font-size: var(--text-xs);
+  font-weight: 700;
+}
+
+.display {
+  font-size: var(--text-xxxl);
+  font-weight: 900;
+  letter-spacing: -1.5px;
 }

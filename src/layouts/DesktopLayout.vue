@@ -42,6 +42,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
       </div>
     </aside>
     <section class="main section">
+      <h1 class="display">Samples:</h1>
       <article>
         <h1 class="">Why do we use it?</h1>
         <h2 class="">Why do we use it?</h2>
@@ -60,7 +61,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         </p>
       </article>
       <article>
-        <h1 class="title">Content here</h1>
+        <h2 class="title">Content here</h2>
         <p>
           Many desktop publishing
           packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
@@ -69,7 +70,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         </p>
       </article>
       <article>
-        <h1 class="title">It is a long established fact</h1>
+        <h2 class="title">It is a long established fact</h2>
         <p>
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
           opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
