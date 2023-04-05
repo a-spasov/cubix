@@ -17,49 +17,88 @@
   --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 }
 
-body {
+body,
+.body-1 {
   font-family: var(--font-primary);
   font-size: var(--text-base-size);
-}
-
-h1 {
-  font-size: var(--text-xxl);
-  font-weight: 700;
-  // letter-spacing: 1px;
-}
-
-h2 {
-  font-size: var(--text-xl);
-  font-weight: 700;
-  // letter-spacing: 0.75px;
-}
-
-h3 {
-  font-size: var(--text-l);
-  font-weight: 700;
-  // letter-spacing: 0.5px;
-}
-
-h4 {
-  font-size: var(--text-m);
-  font-weight: 700;
+  font-weight: 400;
   // letter-spacing: 0.35px;
-}
-
-h5 {
-  font-size: var(--text-s);
-  font-weight: 700;
-  // letter-spacing: 0.25px;
-}
-
-h6 {
-  font-size: var(--text-xs);
-  font-weight: 700;
-  // letter-spacing: 0.15px;
 }
 
 .display {
   font-size: var(--text-xxxl);
   font-weight: 900;
-  // letter-spacing: 1.5px;
+  letter-spacing: 1.5px;
 }
+
+h1,
+.title-1 {
+  font-size: var(--text-xxl);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h2,
+.title-2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+
+h3,
+.title-3 {
+  font-size: var(--text-l);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h4,
+.title-4 {
+  font-size: var(--text-m);
+  font-weight: 700;
+  letter-spacing: 0.35px;
+}
+
+h5,
+.title-5 {
+  font-size: var(--text-s);
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+
+h6,
+.title-6 {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.15px;
+}
+
+.subtitle-3 {
+  font-size: var(--text-l);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: gray;
+}
+
+.subtitle-4 {
+  font-size: var(--text-m);
+  font-weight: 500;
+  letter-spacing: 0.35px;
+  color: gray;
+}
+
+.subtitle-5 {
+  font-size: var(--text-s);
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: gray;
+}
+
+.subtitle-6 {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  color: gray;
+}
+
+
