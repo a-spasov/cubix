@@ -2,7 +2,14 @@
 @import "../../../node_modules/bulma/sass/utilities/initial-variables.sass";
 @import "../../../node_modules/bulma/sass/utilities/functions.sass";
 
-
+// font sizes
+$size-1: calc(1em * 1.25 * 1.25 * 1.25 * 1.25 * 1.25);
+$size-2: calc(1em * 1.25 * 1.25 * 1.25 * 1.25);
+$size-3: calc(1em * 1.25 * 1.25 * 1.25);
+$size-4: calc(1em * 1.25 * 1.25);
+$size-5: calc(1em * 1.25);
+$size-6: calc(1em);
+$size-7: calc(1em / 1.25);
 
 
 
