@@ -62,7 +62,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).
         </p>
-        <button class="button">Action</button>
+        <button class="button is-primary">Action</button>
       </article>
       <article style="flex: 1 1 0;">
         <h1 class="display">Mine samples:</h1>
@@ -93,7 +93,10 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).
         </p>
-        <button class="button btn">Action</button>
+        <p class="caption">caption</p>
+        <p class="overline">overline</p>
+
+        <button class="button btn is-primary">Action</button>
       </article>
     </section>
     <SiteFooter class="footer" />

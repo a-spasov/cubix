@@ -8,6 +8,7 @@
   --text-scale-ratio: 1.25;
 
   /* type scale */
+  --text-xxs: calc(1em / (var(--text-scale-ratio) * (var(--text-scale-ratio))));
   --text-xs: calc(1em / (var(--text-scale-ratio)));
   --text-s: calc(1em);
   --text-m: calc(1em * var(--text-scale-ratio));
@@ -108,9 +109,20 @@ h6,
 
 .btn {
   font-size: var(--text-xs);
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.25px;
+}
+
+.caption {
+  font-size: var(--text-xxs);
+  letter-spacing: 0.4px;
+}
+
+.overline {
+  font-size: var(--text-xxs);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
 }
 
 
