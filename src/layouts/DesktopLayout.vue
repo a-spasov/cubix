@@ -44,17 +44,28 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
     <section class="main section" style="display: flex; flex-direction: row; column-gap: 48px;">
       <article style="flex: 1 1 0;">
         <h1 class="title is-1">Bulma samples</h1>
-        <h2 class="title is-2 is-spaced">Why do we use it?</h2>
-        <p class="subtitle is-4">Subtitle 4</p>
-        <h3 class="title is-3 is-spaced">Why do we use it?</h3>
-        <p class="subtitle is-5">Subtitle 5</p>
-        <h4 class="title is-4 is-spaced">Why do we use it?</h4>
-        <p class="subtitle is-6">Subtitle 6</p>
+        <h2 class="title is-2">Why do we use it?</h2>
+        <p class="subtitle is-4 is-spaced">Subtitle 4</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <h3 class="title is-3">Why do we use it?</h3>
+        <p class="subtitle is-5 is-spaced">Subtitle 5</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <h4 class="title is-4">Why do we use it?</h4>
+        <p class="subtitle is-6 is-spaced">Subtitle 6</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
         <h5 class="title is-5 is-spaced">Why do we use it?</h5>
         <h6 class="title is-6 is-spaced">Why do we use it?</h6>
         <h6 class="title is-7 is-spaced">Why do we use it?</h6> 
-
-        <p>
+        <p class="mb-4">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
           opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
@@ -65,13 +76,29 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         <button class="button is-primary">Action</button>
       </article>
       <article style="flex: 1 1 0;">
-        <h1 class="display">Mine samples:</h1>
+        <h1 class="display mb-10">Mine samples:</h1>
         <h1 class="">Why do we use it?</h1>
-        <p class="subtitle-3">Subtitle test demo 3</p>
+        <p class="subtitle-3 mb-5">Subtitle test demo 3</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
         <h2 class="">Why do we use it?</h2>
-        <p class="subtitle-4">Subtitle 4</p>
+        <p class="subtitle-4 mb-5">Subtitle 4</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <p class="mb-6">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
         <h3 class="">Why do we use it?</h3>
         <p class="subtitle-5">Subtitle 5</p>
+        <p class="mb-4">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
         <h4 class="">Why do we use it?</h4>
         <p class="subtitle-6">Subtitle 6</p>
 
