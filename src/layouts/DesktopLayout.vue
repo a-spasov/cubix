@@ -44,15 +44,15 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
     <section class="main section" style="display: flex; flex-direction: row; column-gap: 48px;">
       <article style="flex: 1 1 0;">
         <h1 class="title is-1">Bulma samples</h1>
-        <h2 class="title is-2">Why do we use it?</h2>
+        <h2 class="title is-2 is-spaced">Why do we use it?</h2>
         <p class="subtitle is-4">Subtitle 4</p>
-        <h3 class="title is-3">Why do we use it?</h3>
+        <h3 class="title is-3 is-spaced">Why do we use it?</h3>
         <p class="subtitle is-5">Subtitle 5</p>
-        <h4 class="title is-4">Why do we use it?</h4>
+        <h4 class="title is-4 is-spaced">Why do we use it?</h4>
         <p class="subtitle is-6">Subtitle 6</p>
-        <h5 class="title is-5">Why do we use it?</h5>
-        <h6 class="title is-6">Why do we use it?</h6>
-        <h6 class="title is-7">Why do we use it?</h6> 
+        <h5 class="title is-5 is-spaced">Why do we use it?</h5>
+        <h6 class="title is-6 is-spaced">Why do we use it?</h6>
+        <h6 class="title is-7 is-spaced">Why do we use it?</h6> 
 
         <p>
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
