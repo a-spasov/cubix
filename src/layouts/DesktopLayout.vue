@@ -7,8 +7,14 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
 <template>
   <div class="desktop">
     <SiteHeader class="header" />
-    <aside class="sidebar">
-      <div class="tile pt-4 mt-6">
+    <aside class="section">
+      <div class="columns is-desktop">
+        <div class="column">1</div>
+        <div class="column">2</div>
+        <div class="column">3</div>
+        <div class="column">4</div>
+      </div>
+      <div class="tile is-ancestor pt-4 mt-6">
         <div class="tile is-parent is-outlined">
           <article class="tile is-child notification is-success">
             <div class="tile is-vertical">

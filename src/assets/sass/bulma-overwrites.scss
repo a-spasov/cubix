@@ -2,6 +2,11 @@
 @import "../../../node_modules/bulma/sass/utilities/initial-variables.sass";
 @import "../../../node_modules/bulma/sass/utilities/functions.sass";
 
+// --break points--
+$tablet: 601px;
+$widescreen: 1280px;
+$fullhd: 1440px;
+
 // --font sizes--
 // $base-font-size: var(--text-base-size);
 // $scale-ratio: var(--text-scale-ratio);

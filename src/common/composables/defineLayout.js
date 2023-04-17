@@ -5,7 +5,7 @@ export default function lalayoutt() {
 
   function resize() {
     if (window.innerWidth < 601) {
-      layout.value = 'phone';
+      layout.value = 'mobile';
     } else if (window.innerWidth > 1023) {
       layout.value = 'desktop';
     } else {

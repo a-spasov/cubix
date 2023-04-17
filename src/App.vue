@@ -2,13 +2,13 @@
 import layoutType from './common/composables/defineLayout';
 import Desktop from './layouts/DesktopLayout.vue';
 import Tablet from './layouts/TabletLayout.vue';
-import Phone from './layouts/PhoneLayout.vue';
+import Mobile from './layouts/MobileLayout.vue';
 
 const { layout } = layoutType();
 const components = {
   desktop: Desktop,
   tablet: Tablet,
-  phone: Phone,
+  mobile: Mobile,
 }
 
 </script>
