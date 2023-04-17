@@ -1,8 +1,8 @@
 $mobile: "(max-width: 600px)";
-$tablet: "(min-width: 601px) and (max-width: 1274px)";
-$desktop: "(max-width: 1274px)";
-$widescreen: "(min-width: 1275px) and (max-width: 1440px)";
-$fullhd: "(min-width: 1275px)";
+$tablet: "(min-width: 601px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px) and (max-width: 1279px)";
+$widescreen: "(min-width: 1280px) and (max-width: 1439px)";
+$fullhd: "(min-width: 1440px)";
 
 // Media Queries
 @mixin break-point($point) {
