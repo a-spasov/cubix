@@ -6,7 +6,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
 
 <template>
   <div class="desktop">
-    <!-- <SiteHeader class="header" /> -->
+    <SiteHeader class="header" />
     <aside class="section">
       <div class="columns is-desktop">
         <div class="column">1</div>
