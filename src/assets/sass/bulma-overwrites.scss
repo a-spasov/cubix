@@ -7,14 +7,14 @@ $widescreen: 1280px;
 $fullhd: 1920px;
 
 // --font sizes--
-// $base-font-size: var(--text-base-size);
-// $scale-ratio: var(--text-scale-ratio);
-// $size-1: calc($base-font-size * pow($scale-ratio, 5));
-// $size-2: calc($base-font-size * pow($scale-ratio, 4));
-// $size-3: calc($base-font-size * pow($scale-ratio, 3));
-// $size-4: calc($base-font-size * pow($scale-ratio, 2));
-// $size-5: calc($base-font-size * $scale-ratio);
-// $size-6: $base-font-size;
+$base-font-size: var(--text-base-size);
+$scale-ratio: var(--text-scale-ratio);
+$size-1: calc($base-font-size * pow($scale-ratio, 5));
+$size-2: calc($base-font-size * pow($scale-ratio, 4));
+$size-3: calc($base-font-size * pow($scale-ratio, 3));
+$size-4: calc($base-font-size * pow($scale-ratio, 2));
+$size-5: calc($base-font-size * $scale-ratio);
+$size-6: $base-font-size;
 // $size-7: calc($base-font-size / $scale-ratio);
 
 
