@@ -3,6 +3,7 @@
 @import "../../../node_modules/bulma/sass/utilities/functions.sass";
 
 // --break points--
+$gap: 24px;
 $widescreen: 1280px;
 $fullhd: 1920px;
 
@@ -48,7 +49,6 @@ $spacing-values: (
 
 // $family-sans-serif: 'Arial', sans-serif;
 // $success: red;
-// $gap: 60px;
 
 
 @import "../../../node_modules/bulma/bulma.sass";

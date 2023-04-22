@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 :root {
   --font-primary: 'Varela Round', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+  ;
+
 
   /* base values */
   --text-base-size: 1em;
@@ -51,6 +55,14 @@ body,
   letter-spacing: 1.5px;
 }
 
+.display-2 {
+  font-family: var(--font-secondary);
+  font-size: var(--text-xxxl);
+  font-weight: 900;
+  line-height: 110%;
+  letter-spacing: 1.5px;
+}
+
 h1,
 .title-1 {
   font-size: var(--text-xxl);
@@ -91,7 +103,7 @@ h6,
   h#{$i},
   .title-#{$i} {
     font-weight: 700;
-    line-height: 110%;
+    line-height: 150%;
   }
 }
 
@@ -136,11 +148,25 @@ h6,
   letter-spacing: 0.4px;
 }
 
-.overline {
-  font-size: var(--text-xxs);
+.overline-1 {
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+
+.overline-2 {
+  font-size: var(--text-xs);
   text-transform: uppercase;
   line-height: 150%;
   letter-spacing: 1.5px;
+}
+
+.overline-3 {
+  font-size: var(--text-xxs);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 1px;
 }
 
 

@@ -1,30 +1,30 @@
 <template>
   <header>
-    <nav class="navbar is-warning" role="navigation" aria-label="main navigation" style="width: 100%;">
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation" style="display: flex; justify-content: space-between;">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="https://bulma.io" style="padding: 12px 24px;">
           <img src="../../assets/images/logo2.png" style="max-height: 100%" width="200">
         </a>
       </div>
-      <div style="width: 100%; padding: 6px 20px;">
-        <nav class="level" style="height: 36px; margin: 0; width: 100%">
+      <div style="display: flex; flex-direction: column; width: 100%;">
+        <nav class="level" style="height: 36px; margin: 0; display: flex; align-items: flex-end;">
           <div class="level-right" style="margin-left: auto">
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><strong>Home</strong>
+            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><strong>Home</strong>
             </p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>About</a></p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Usefull links</a>
+            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>About</a></p>
+            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Usefull links</a>
             </p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Log in</a></p>
-            <p class="level-item" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Join Cubix</a></p>
+            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Log in</a></p>
+            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Join Cubix</a></p>
             <p><font-awesome-icon icon="fa-brands fa-facebook" style="font-size: 1em; padding: 0 10px; color: gray;" /></p>
             <p><font-awesome-icon icon="fa-brands fa-youtube" style="font-size: 1em; padding: 0 10px; color: gray;" /></p>
             <p><font-awesome-icon icon="fa-brands fa-twitter" style="font-size: 1em; padding: 0 20px 0 10px; color: gray;" /></p>
           </div>
         </nav>
-        <div class="navbar-menu" style="height: 36px; align-self: flex-end;">
-          <div class="navbar-start" style="margin-left: 300px;">
+        <div class="navbar-menu" style="height: 36px; width: 100%; display: flex; justify-content: space-between;">
+          <div class="navbar-start" style="">
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+              <a class="navbar-link overline-1">
                 Puzzles
               </a>
               <div class="navbar-dropdown">
@@ -73,7 +73,7 @@
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+              <a class="navbar-link overline-1">
                 Feed
               </a>
               <div class="navbar-dropdown">
@@ -140,11 +140,11 @@
                 </div>
               </div>
             </div>
-            <a class="navbar-item">
+            <a class="navbar-item overline-1">
               Marketplace
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+              <a class="navbar-link overline-1">
                 More
               </a>
 
@@ -164,74 +164,74 @@
                 </a>
               </div>
             </div>
-            <div class="navbar-item is-hoverable" style="margin-left: 200px;">
-              <button class="button is-rounded is-link" style="width: 320px;">
-                <span class="icon is-small is-left" style="display: inline-block; margin-right: 10px;">
-                  <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
-                </span>
-                SEARCH
-              </button>
-              <div class="navbar-dropdown">
-                <div class="tile is-ancestor box">
-                  <div class="tile is-parent">
-                    <article class="tile is-child" style="width: 200px;">
-                      <p class="title is-4">Articles</p>
-                      <hr>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item">Subtitle</a>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item">Subtitle</a>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item is-active">More...</a>
+          </div>
+          <div class="navbar-item is-hoverable" style="">
+            <button class="button is-rounded is-link overline-1" style="width: 320px;">
+              <span class="icon is-small is-left" style="display: inline-block; margin-right: 10px;">
+                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+              </span>
+              SEARCH
+            </button>
+            <div class="navbar-dropdown">
+              <div class="tile is-ancestor box">
+                <div class="tile is-parent">
+                  <article class="tile is-child" style="width: 200px;">
+                    <p class="title is-4">Articles</p>
+                    <hr>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item">Subtitle</a>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item">Subtitle</a>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item is-active">More...</a>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child" style="width: 200px;">
+                    <p class="title is-4">Forum</p>
+                    <hr>
+                    <a class="navbar-item">Subtitle</a>
+                    <a class="navbar-item">Subtitle</a>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item">Subtitle</a>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item">Subtbt btitle</a>
+                    <a class="navbar-item">Subbt itle</a>
+                    <a class="navbar-item is-active">More...</a>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child" style="width: 600px;">
+                    <p class="title is-4">Featured</p>
+                    <hr>
+                    <article class="message">
+                      <div class="message-header">
+                        <p>Hello World</p>
+                        <button class="delete" aria-label="delete"></button>
+                      </div>
+                      <div class="message-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>,
+                        tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus. Nullam
+                        gravida purus diam, et dictum <a>felis venenatis</a> efficitur...
+                      </div>
                     </article>
-                  </div>
-                  <div class="tile is-parent">
-                    <article class="tile is-child" style="width: 200px;">
-                      <p class="title is-4">Forum</p>
-                      <hr>
-                      <a class="navbar-item">Subtitle</a>
-                      <a class="navbar-item">Subtitle</a>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item">Subtitle</a>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item">Subtbt btitle</a>
-                      <a class="navbar-item">Subbt itle</a>
-                      <a class="navbar-item is-active">More...</a>
+                    <article class="message is-info">
+                      <div class="message-header">
+                        <p>Info</p>
+                        <button class="delete" aria-label="delete"></button>
+                      </div>
+                      <div class="message-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>,
+                        tempus quis placerat ut, porta nec nulla...
+                      </div>
                     </article>
-                  </div>
-                  <div class="tile is-parent">
-                    <article class="tile is-child" style="width: 600px;">
-                      <p class="title is-4">Featured</p>
-                      <hr>
-                      <article class="message">
-                        <div class="message-header">
-                          <p>Hello World</p>
-                          <button class="delete" aria-label="delete"></button>
-                        </div>
-                        <div class="message-body">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>,
-                          tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus. Nullam
-                          gravida purus diam, et dictum <a>felis venenatis</a> efficitur...
-                        </div>
-                      </article>
-                      <article class="message is-info">
-                        <div class="message-header">
-                          <p>Info</p>
-                          <button class="delete" aria-label="delete"></button>
-                        </div>
-                        <div class="message-body">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>,
-                          tempus quis placerat ut, porta nec nulla...
-                        </div>
-                      </article>
-                      <a class="navbar-item is-active">More...</a>
-                    </article>
-                  </div>
+                    <a class="navbar-item is-active">More...</a>
+                  </article>
                 </div>
               </div>
             </div>
