@@ -47,7 +47,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         </div>
       </div>
     </aside> -->
-    <div class="container is-fullhd is-fluid" style="display: flex; flex-direction: row; column-gap: 12px;">
+    <div class="container is-fullhd is-fluid" style="display: flex; flex-direction: row; column-gap: 24px;">
       <article style="flex: 1 1 0;">
         <h1 class="display mb-72">Display Text Sample</h1>
         <h1 class="">H1 Why do we use it?</h1>

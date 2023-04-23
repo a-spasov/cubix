@@ -4,8 +4,6 @@
 :root {
   --font-primary: 'Varela Round', sans-serif;
   --font-secondary: 'Montserrat', sans-serif;
-  ;
-
 
   /* base values */
   --text-base-size: 1em;
@@ -103,7 +101,7 @@ h6,
   h#{$i},
   .title-#{$i} {
     font-weight: 700;
-    line-height: 150%;
+    line-height: 110%;
   }
 }
 
