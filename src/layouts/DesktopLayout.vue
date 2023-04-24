@@ -120,7 +120,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         <button class="button btn is-primary">Action</button>
       </article>
       <article style="flex: 1 1 0;">
-        <h1 class="display-2 mb-72 mt-72">Display Text Sample CUBIX</h1>
+        <h1 class="display mb-72 mt-72">CUBIX Display Text</h1>
         <h1 class="">H1 Why do we use it?</h1>
         <p class="subtitle-3 mb-32">Subtitle test demo 3</p>
         <p class="mb-16">

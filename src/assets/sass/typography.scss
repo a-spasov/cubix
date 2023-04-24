@@ -47,18 +47,15 @@ body,
 }
 
 .display {
-  font-size: var(--text-xxxl);
-  font-weight: 900;
-  line-height: 110%;
-  letter-spacing: 1.5px;
-}
-
-.display-2 {
   font-family: var(--font-secondary);
   font-size: var(--text-xxxl);
   font-weight: 900;
   line-height: 110%;
   letter-spacing: 1.5px;
+
+  &.spaced {
+    margin-bottom: var(--space-xxxl);
+  }
 }
 
 h1,

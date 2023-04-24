@@ -20,7 +20,7 @@ $size-6: $base-font-size;
 
 
 // --spacings--
-$spacing-base: var(--spacing-base-size);
+$spacing-base: calc(0.25 * var(--spacing-unit));
 $spacing-shortcuts: ("margin": "m", "padding": "p");
 $spacing-horizontal: "x";
 $spacing-vertical: "y";
