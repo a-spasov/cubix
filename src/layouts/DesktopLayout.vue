@@ -75,7 +75,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <h3 class="mb-48">H3 Why do we use it?</h3>
+        <h3 class="mb-32">H3 Why do we use it?</h3>
         <!-- <p class="subtitle-5 mb-24">Subtitle 5</p> -->
         <p class="mb-48">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
