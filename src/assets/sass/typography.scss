@@ -38,23 +38,33 @@ body,
   font-size: var(--text-base-size);
   line-height: 150%;
   letter-spacing: 0.5px;
+
+
+  margin-bottom: 3em;
 }
 
 .body-2 {
   font-size: var(--text-xs);
-  line-height: 150%;
+  // line-height: 150%;
   letter-spacing: 0.25px;
+
+  line-height: 1.875em;
+  margin-bottom: 3.75em;
 }
 
 .display {
   font-family: var(--font-secondary);
   font-size: var(--text-xxxl);
   font-weight: 900;
-  line-height: 110%;
+  // line-height: 110%;
   letter-spacing: 1.5px;
 
+
+  line-height: 1.46938776em;
+
   &.spaced {
-    margin-bottom: var(--space-xxxl);
+    margin-top: 0.48979592em;
+    margin-bottom: 0.48979592em;
   }
 }
 
@@ -62,70 +72,142 @@ h1,
 .title-1 {
   font-size: var(--text-xxl);
   letter-spacing: 1px;
+
+
+  line-height: 1.23076923em;
+
+  &.spaced {
+    margin-top: 0.61538462em;
+    margin-bottom: 1.23076924em;
+  }
 }
 
 h2,
 .title-2 {
   font-size: var(--text-xl);
   letter-spacing: 0.75px;
+
+
+  line-height: 1.5483871em;
+
+  &.spaced {
+    margin-top: 0.77419355em;
+    margin-bottom: 1.5483871em;
+  }
 }
 
 h3,
 .title-3 {
   font-size: var(--text-l);
   letter-spacing: 0.5px;
+
+
+  line-height: 1.92em;
+
+  &.spaced {
+    margin-top: 0.96em;
+    margin-bottom: 1.92em;
+  }
 }
 
 h4,
 .title-4 {
   font-size: var(--text-m);
   letter-spacing: 0.35px;
+
+
+  line-height: 1.2em;
+
+  &.spaced {
+    margin-top: 1.2em;
+    margin-bottom: 2.4em;
+  }
 }
 
 h5,
 .title-5 {
   font-size: var(--text-s);
   letter-spacing: 0.25px;
+
+
+  line-height: 1.5em;
+
+  &.spaced {
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+  }
 }
 
 h6,
 .title-6 {
   font-size: var(--text-xs);
   letter-spacing: 0.15px;
+
+  line-height: 1.875em;
+
+  &.spaced {
+    margin-top: 1.875em;
+    margin-bottom: 3.75em;
+  }
 }
 
 @for $i from 1 through 6 {
   h#{$i},
   .title-#{$i} {
     font-weight: 700;
-    line-height: 110%;
+    // line-height: 110%;
   }
 }
 
 .subtitle-3 {
   font-size: var(--text-l);
   letter-spacing: 0.5px;
+
+  line-height: 1.92em;
+
+  &.spaced {
+    margin-bottom: 1.92em;
+  }
 }
 
 .subtitle-4 {
   font-size: var(--text-m);
   letter-spacing: 0.35px;
+
+  line-height: 1.2em;
+
+  &.spaced {
+    margin-bottom: 2.4em;
+  }
 }
 
 .subtitle-5 {
   font-size: var(--text-s);
   letter-spacing: 0.25px;
+
+
+  line-height: 1.5em;
+
+  &.spaced {
+    margin-bottom: 3em;
+  }
 }
 
 .subtitle-6 {
   font-size: var(--text-xs);
   letter-spacing: 0.15px;
+
+  line-height: 1.875em;
+
+  &.spaced {
+    margin-bottom: 3.75em;
+  }
 }
 
 @for $c from 3 through 6 {
   .subtitle-#{$c} {
     font-weight: 500;
-    line-height: 150%;
+    // line-height: 150%;
     color: gray;
   }
 }
@@ -162,6 +244,147 @@ h6,
   text-transform: uppercase;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+
+.mine {
+  body,
+.body-1 {
+  font-family: var(--font-primary);
+  font-size: var(--text-base-size);
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.body-2 {
+  font-size: var(--text-xs);
+  line-height: 150%;
+  letter-spacing: 0.25px;
+}
+
+.display {
+  font-family: var(--font-secondary);
+  font-size: var(--text-xxxl);
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+}
+
+h1,
+.title-1 {
+  line-height: 48px;
+  font-size: var(--text-xxl);
+  letter-spacing: 1px;
+}
+
+h2,
+.title-2 {
+  line-height: 48px;
+  font-size: var(--text-xl);
+  letter-spacing: 0.75px;
+}
+
+h3,
+.title-3 {
+  line-height: 48px;
+  font-size: var(--text-l);
+  letter-spacing: 0.5px;
+}
+
+h4,
+.title-4 {
+  line-height: 24px;
+  font-size: var(--text-m);
+  letter-spacing: 0.35px;
+}
+
+h5,
+.title-5 {
+  line-height: 24px;
+  font-size: var(--text-s);
+  letter-spacing: 0.25px;
+}
+
+h6,
+.title-6 {
+  line-height: 24px;
+  font-size: var(--text-xs);
+  letter-spacing: 0.15px;
+}
+
+@for $i from 1 through 6 {
+  h#{$i},
+  .title-#{$i} {
+    font-weight: 700;
+    // line-height: 110%;
+  }
+}
+
+.subtitle-3 {
+  line-height: 48px;
+  font-size: var(--text-l);
+  letter-spacing: 0.5px;
+}
+
+.subtitle-4 {
+  line-height: 24px;
+  font-size: var(--text-m);
+  letter-spacing: 0.35px;
+}
+
+.subtitle-5 {
+  line-height: 24px;
+  font-size: var(--text-s);
+  letter-spacing: 0.25px;
+}
+
+.subtitle-6 {
+  line-height: 24px;
+  font-size: var(--text-xs);
+  letter-spacing: 0.15px;
+}
+
+@for $c from 3 through 6 {
+  .subtitle-#{$c} {
+    font-weight: 500;
+    // line-height: 150%;
+    color: gray;
+  }
+}
+
+.btn {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 1.25px;
+}
+
+.caption {
+  font-size: var(--text-xxs);
+  line-height: 150%;
+  letter-spacing: 0.4px;
+}
+
+.overline-1 {
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+
+.overline-2 {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 1.5px;
+}
+
+.overline-3 {
+  font-size: var(--text-xxs);
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
 }
 
 
