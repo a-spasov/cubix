@@ -26,7 +26,7 @@
   }
 }
 
-@include break-point($mobile) {
+@include break-point($smalltablet) {
   :root {
     --text-base-size: 0.875em;
   }
@@ -35,7 +35,7 @@
 body,
 .body-1 {
   font-family: var(--font-primary);
-  font-size: var(--text-base-size);
+  font-size: var(--text-s);
   line-height: 150%;
   letter-spacing: 0.5px;
 
