@@ -137,7 +137,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
       <article class="mine" style="flex: 1 1 0;">
         <h1 class="display mb-24 mt-24">CUBIX Display Text</h1>
         <h1 class="">H1 Why do we use it?</h1>
-        <p class="subtitle-3 mb-48">Subtitle test demo 3</p>
+        <p class="subtitle-3 mb-24">Subtitle test demo 3</p>
         <p class="mb-16">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
@@ -156,12 +156,12 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h2>H2 Why do we use it?</h2>
-        <p class="subtitle-4 mb-48">Subtitle 4</p>
+        <p class="subtitle-4 mb-24">Subtitle 4</p>
         <p class="mb-48">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <h3 class="mb-32">H3 Why do we use it?</h3>
+        <h3 class="mb-24">H3 Why do we use it?</h3>
         <!-- <p class="subtitle-5 mb-24">Subtitle 5</p> -->
         <p class="mb-48">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
@@ -182,7 +182,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at.
         </p>
         <h6 class="mb-24">H6 Why do we use it?</h6>
-        <h2 class="mb-48">Paragraphs with class block</h2>
+        <h2 class="mb-24">Paragraphs with class block</h2>
         <p class="block">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -212,7 +212,8 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           accident, sometimes on purpose (injected humour and the like).
         </p>
         <p class="caption">caption</p>
-        <p class="overline">overline</p>
+        <p class="overline mb-80">overline</p>
+
 
         <button class="button btn is-primary">Action</button>
       </article>

@@ -8,9 +8,10 @@
   /* base values */
   --text-base-size: 1em;
   --text-scale-ratio: 1.25;
+  --grid-unit: 1.5rem;
 
-  /* type scale */
-  --text-xxs: calc(var(--text-base-size) / (var(--text-scale-ratio) * (var(--text-scale-ratio))));
+  /* font sizes */
+  --text-xxs: calc(var(--text-base-size) / pow(var(--text-scale-ratio) * (var(--text-scale-ratio))));
   --text-xs: calc(var(--text-base-size) / (var(--text-scale-ratio)));
   --text-s: var(--text-base-size);
   --text-m: calc(var(--text-base-size) * var(--text-scale-ratio));
@@ -18,49 +19,46 @@
   --text-xl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
   --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
   --text-xxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+
+  /* line heights */
+  --grid-line-m: var(--grid-unit);
+  --grid-line-l: calc((var(--grid-unit) * 2));
+  --grid-line-xl: calc((var(--grid-unit) * 3));
+
 }
 
-@include break-point($fullhd) {
-  :root {
-    --text-base-size: 1.125em;
-  }
-}
+// @include break-point($fullhd) {
+//   :root {
+//     --text-base-size: 1.125em;
+//   }
+// }
 
-@include break-point($smalltablet) {
-  :root {
-    --text-base-size: 0.875em;
-  }
-}
+// @include break-point($smalltablet) {
+//   :root {
+//     --text-base-size: 0.875em;
+//   }
+// }
 
 body,
 .body-1 {
   font-family: var(--font-primary);
   font-size: var(--text-s);
-  line-height: 150%;
+  line-height: var(--grid-line-m);
   letter-spacing: 0.5px;
-
-
-  margin-bottom: 3em;
 }
 
 .body-2 {
   font-size: var(--text-xs);
-  // line-height: 150%;
+  line-height: var(--grid-line-m);
   letter-spacing: 0.25px;
-
-  line-height: 1.875em;
-  margin-bottom: 3.75em;
 }
 
 .display {
   font-family: var(--font-secondary);
   font-size: var(--text-xxxl);
   font-weight: 900;
-  // line-height: 110%;
+  line-height: var(--grid-line-xl);
   letter-spacing: 1.5px;
-
-
-  line-height: 1.46938776em;
 
   &.spaced {
     margin-top: 0.48979592em;
