@@ -21,9 +21,9 @@
   --text-xxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 
   /* line heights */
-  --grid-line-m: var(--grid-unit);
-  --grid-line-l: calc((var(--grid-unit) * 2));
-  --grid-line-xl: calc((var(--grid-unit) * 3));
+  --grid-line-m: var(--grid-unit);                // 24px
+  --grid-line-l: calc((var(--grid-unit) * 2));    // 48px
+  --grid-line-xl: calc((var(--grid-unit) * 3));   // 72px
 
 }
 
@@ -141,45 +141,40 @@ h6,
 .subtitle-3 {
   font-size: var(--text-l);
   letter-spacing: 0.5px;
-
-  line-height: 1.92em;
+  line-height: var(--grid-line-l);
 
   &.spaced {
-    margin-bottom: 1.92em;
+    margin-bottom: var(--space-xxl);
   }
 }
 
 .subtitle-4 {
   font-size: var(--text-m);
   letter-spacing: 0.35px;
-
-  line-height: 1.2em;
+  line-height: var(--grid-line-m);
 
   &.spaced {
-    margin-bottom: 2.4em;
+    margin-bottom: var(--space-xxl);
   }
 }
 
 .subtitle-5 {
   font-size: var(--text-s);
   letter-spacing: 0.25px;
-
-
-  line-height: 1.5em;
+  line-height: var(--grid-line-m);
 
   &.spaced {
-    margin-bottom: 3em;
+    margin-bottom: var(--space-xxl);
   }
 }
 
 .subtitle-6 {
   font-size: var(--text-xs);
   letter-spacing: 0.15px;
-
-  line-height: 1.875em;
+  line-height: var(--grid-line-m);
 
   &.spaced {
-    margin-bottom: 3.75em;
+    margin-bottom: var(--space-m);
   }
 }
 
