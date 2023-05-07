@@ -9,13 +9,13 @@
       <div style="display: flex; flex-direction: column; width: 100%;">
         <nav class="level" style="height: 36px; margin: 0; display: flex; align-items: flex-end;">
           <div class="level-right" style="margin-left: auto">
-            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><strong>Home</strong>
+            <p class="level-item overline" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><strong>Home</strong>
             </p>
-            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>About</a></p>
-            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Usefull links</a>
+            <p class="level-item overline" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>About</a></p>
+            <p class="level-item overline" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Usefull links</a>
             </p>
-            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Log in</a></p>
-            <p class="level-item overline-2" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Join Cubix</a></p>
+            <p class="level-item overline" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Log in</a></p>
+            <p class="level-item overline" style="border-right: 1px solid gray; padding: 0 20px; margin: 0;"><a>Join Cubix</a></p>
             <p><font-awesome-icon icon="fa-brands fa-facebook" style="font-size: 1em; padding: 0 10px; color: gray;" /></p>
             <p><font-awesome-icon icon="fa-brands fa-youtube" style="font-size: 1em; padding: 0 10px; color: gray;" /></p>
             <p><font-awesome-icon icon="fa-brands fa-twitter" style="font-size: 1em; padding: 0 20px 0 10px; color: gray;" /></p>
@@ -140,11 +140,11 @@
                 </div>
               </div>
             </div>
-            <a class="navbar-item overline-1">
+            <a class="navbar-item">
               Marketplace
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link overline-1">
+              <a class="navbar-link">
                 More
               </a>
 
@@ -166,7 +166,7 @@
             </div>
           </div>
           <div class="navbar-item is-hoverable" style="">
-            <button class="button is-rounded is-link overline-1" style="width: 320px;">
+            <button class="button is-rounded is-link" style="width: 320px;">
               <span class="icon is-small is-left" style="display: inline-block; margin-right: 10px;">
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
               </span>

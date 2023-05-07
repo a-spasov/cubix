@@ -52,58 +52,58 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         <h1 class="display spaced">CUBIX Display Text</h1>
         <h1 class="">H1 Why do we use it?</h1>
         <p class="subtitle-3 spaced">Subtitle test demo 3</p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h2 class="">H2 Why do we use it?</h2>
         <p class="subtitle-4 spaced">Subtitle 4</p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h3 class="spaced">H3 Why do we use it?</h3>
         <!-- <p class="subtitle-5 spaced">Subtitle 5</p> -->
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h3 class="">H3 Why do we use it?</h3>
         <p class="subtitle-5 spaced">Subtitle 5</p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h4>H4 Why do we use it?</h4>
         <p class="subtitle-6 spaced">Subtitle 6</p>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h5 class="spaced">H5 Why do we use it?</h5>
-        <p class="body-1 block">
+        <p class="body-1">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <h6 class="spaced">H6 Why do we use it?</h6>
-        <p class="body-2 block">
+        <p class="body-2">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <h2 class="spaced">Paragraphs with class block</h2>
+        <h2 class="spaced">Paragraphs with class</h2>
         <p class="block">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -133,11 +133,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           accident, sometimes on purpose (injected humour and the like).
         </p>
         <p class="caption">caption</p>
-        <p class="overline-1">overline 1</p>
-        <p class="overline-2">overline 2</p>
-        <p class="overline-3">overline 3</p>
-
-
+        <p class="overline">overline 1</p>
         <button class="button btn is-primary">Action</button>
       </article>
       <article class="mine" style="flex: 1 1 0;">
@@ -188,7 +184,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at.
         </p>
         <h6 class="mb-24">H6 Why do we use it?</h6>
-        <h2 class="mb-24">Paragraphs with class block</h2>
+        <h2 class="mb-24">Paragraphs with class</h2>
         <p class="block">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -218,9 +214,7 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
           accident, sometimes on purpose (injected humour and the like).
         </p>
         <p class="caption">caption</p>
-        <p class="overline mb-80">overline</p>
-
-
+        <p class="overline">overline 1</p>
         <button class="button btn is-primary">Action</button>
       </article>
     </div>

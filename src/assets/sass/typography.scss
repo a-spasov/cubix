@@ -11,7 +11,7 @@
   --grid-unit: 1.5rem;
 
   /* font sizes */
-  --text-xxs: calc(var(--text-base-size) / pow(var(--text-scale-ratio) * (var(--text-scale-ratio))));
+  --text-xxs: calc(var(--text-base-size) / (var(--text-scale-ratio) * (var(--text-scale-ratio))S));
   --text-xs: calc(var(--text-base-size) / (var(--text-scale-ratio)));
   --text-s: var(--text-base-size);
   --text-m: calc(var(--text-base-size) * var(--text-scale-ratio));
@@ -181,7 +181,6 @@ h6,
 @for $c from 3 through 6 {
   .subtitle-#{$c} {
     font-weight: 500;
-    // line-height: 150%;
     color: gray;
   }
 }
@@ -194,171 +193,22 @@ h6,
 }
 
 .caption {
-  font-size: var(--text-xxs);
-  line-height: 150%;
+  font-size: var(--text-xs);
+  line-height: var(--grid-line-m);
   letter-spacing: 0.4px;
 }
 
-.overline-1 {
-  font-size: var(--text-s);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 2px;
-}
-
-.overline-2 {
+.overline{
   font-size: var(--text-xs);
   text-transform: uppercase;
-  line-height: 150%;
+  line-height: var(--grid-line-m);
   letter-spacing: 1.5px;
 }
 
-.overline-3 {
-  font-size: var(--text-xxs);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 1px;
+p {
+  margin-bottom: var(--space-s);
 }
 
 
-.mine {
-  body,
-.body-1 {
-  font-family: var(--font-primary);
-  font-size: var(--text-base-size);
-  line-height: 150%;
-  letter-spacing: 0.5px;
-}
-
-.body-2 {
-  font-size: var(--text-xs);
-  line-height: 150%;
-  letter-spacing: 0.25px;
-}
-
-.display {
-  font-family: var(--font-secondary);
-  font-size: var(--text-xxxl);
-  font-weight: 900;
-  line-height: 72px;
-  letter-spacing: 1.5px;
-}
-
-h1,
-.title-1 {
-  line-height: 48px;
-  font-size: var(--text-xxl);
-  letter-spacing: 1px;
-}
-
-h2,
-.title-2 {
-  line-height: 48px;
-  font-size: var(--text-xl);
-  letter-spacing: 0.75px;
-}
-
-h3,
-.title-3 {
-  line-height: 48px;
-  font-size: var(--text-l);
-  letter-spacing: 0.5px;
-}
-
-h4,
-.title-4 {
-  line-height: 24px;
-  font-size: var(--text-m);
-  letter-spacing: 0.35px;
-}
-
-h5,
-.title-5 {
-  line-height: 24px;
-  font-size: var(--text-s);
-  letter-spacing: 0.25px;
-}
-
-h6,
-.title-6 {
-  line-height: 24px;
-  font-size: var(--text-xs);
-  letter-spacing: 0.15px;
-}
-
-@for $i from 1 through 6 {
-  h#{$i},
-  .title-#{$i} {
-    font-weight: 700;
-    // line-height: 110%;
-  }
-}
-
-.subtitle-3 {
-  line-height: 48px;
-  font-size: var(--text-l);
-  letter-spacing: 0.5px;
-}
-
-.subtitle-4 {
-  line-height: 24px;
-  font-size: var(--text-m);
-  letter-spacing: 0.35px;
-}
-
-.subtitle-5 {
-  line-height: 24px;
-  font-size: var(--text-s);
-  letter-spacing: 0.25px;
-}
-
-.subtitle-6 {
-  line-height: 24px;
-  font-size: var(--text-xs);
-  letter-spacing: 0.15px;
-}
-
-@for $c from 3 through 6 {
-  .subtitle-#{$c} {
-    font-weight: 500;
-    // line-height: 150%;
-    color: gray;
-  }
-}
-
-.btn {
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 1.25px;
-}
-
-.caption {
-  font-size: var(--text-xxs);
-  line-height: 150%;
-  letter-spacing: 0.4px;
-}
-
-.overline-1 {
-  font-size: var(--text-s);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 2px;
-}
-
-.overline-2 {
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 1.5px;
-}
-
-.overline-3 {
-  font-size: var(--text-xxs);
-  text-transform: uppercase;
-  line-height: 150%;
-  letter-spacing: 1px;
-}
-}
 
 
