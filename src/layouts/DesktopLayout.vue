@@ -140,16 +140,16 @@ import SiteFooter from '../components/layout/SiteFooter.vue';
         <h1 class="display mb-24 mt-24">CUBIX Display Text</h1>
         <h1 class="">H1 Why do we use it?</h1>
         <p class="subtitle-3 mb-24">Subtitle test demo 3</p>
-        <p class="mb-16">
+        <p class="mb-24">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <p class="mb-16">
+        <p class="mb-24">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <p class="mb-16">
+        <p class="mb-24">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at
           its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
