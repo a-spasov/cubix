@@ -206,8 +206,14 @@ h6,
   letter-spacing: 1.5px;
 }
 
-p:not(:last-of-type) {
-  margin-bottom: var(--space-m);
+p {
+  &:not(:last-of-type) {
+    margin-bottom: var(--space-m);
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 
